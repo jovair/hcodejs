@@ -1,11 +1,15 @@
 # Developer JavaScript
 
+---
+
 ## IA01 JD Introdução
 
 ### Principais assuntos
 
 * Introdução ao curso falando de sua estrutura;
 * Enfase na importância das anotações e repetição da escrita do código para fixação.
+
+---
 
 ## LD01 JD Algoritmo
 
@@ -16,6 +20,8 @@
     * Algoritmo fósforo - decisão simples verificando se o fósforo acendeu ou não para tomar uma nova ação;
     * Algoritmo semáforo - decisão mais complexa que requer mais de uma verificação, dependendo da luz exibida pelo semáforo para saber qual ação tomar.
 
+---
+
 ## LD02 JD Pseudo Código
 
 O prefixo "pseudo" é usado para marcar alguma coisa como sendo superficial, ou seja, que parece ser uma coisa, mas na verdade é outra.
@@ -24,6 +30,10 @@ Pseudocódigo é uma forma genérica de escrever um algoritmo que parece ser um 
 
 Para nós, nativos em Português do Brasil utilizamos o Português Estruturado, também conhecido como Portugol.
 
+**Nota:** Todos os nomes de códigos desta seção (JD) serão escritos em português obedecendo à pseudo linguagem Portugol.
+
+---
+
 ## LD03 - JD Teste de Mesa
 
 O Teste de Mesa é um processo manual que é utilizado para validar a lógica de um determinado algoritmo. Ele é utilizado principalmente em algoritmos quando a linguagem utilizada não possui nenhuma ferramenta automatizada de depuração. Como as linguagens de programação costumam possuir tais ferramentas, é mais comum utilizá-las a fazer o teste de mesa propriamente dito, embora para quem ainda é iniciante.
@@ -31,6 +41,8 @@ O Teste de Mesa é um processo manual que é utilizado para validar a lógica de
 ## LD04 - JD Hcode Challenge Fritando um Ovo e Trocando um Pneu de um Carro
 
 * Tarefa para o futuro
+
+---
 
 ## LD05 JD Tipos de Programas
 
@@ -55,6 +67,8 @@ Quando um cóadigo passa pelo processo de compilação, mas mesmo assim o result
 
 Just in Time, Também conhecida como tradução dinâmica é quando a compilação de um programa é feita em tempo de execução, ou seja, apenas na hora de usar o programa.
 
+---
+
 ## LD06 JD Variáveis de Memória
 
 É uma posição ou espaço localizado na memória do computador. Pode reter e representar um valor ou expressão. Esses valores são armazenados apenas em tempo de execução e possuem identificadores ou nomes para serem usados ou chamados durante o desenvolvimento do código.
@@ -64,6 +78,8 @@ Just in Time, Também conhecida como tradução dinâmica é quando a compilaç�
 * Locais;
 * Globais;
 * Constantes.
+
+---
 
 ## LD07 JD Tipos de dados
 
@@ -90,7 +106,9 @@ Texto são todos os caracteres possíveis como letras, números, pontuações, c
 
 Possui dois valores possíveis: verdadeiro e falso, sendo possível também usar os valores 0 para falso e 1 ou qualquer outro valor para verdadeiro. O caractere 0 indica que o valor lógico é falso, mas o valor verdadeiro pode ser representado por qualquer outro valor, não somente o 1.
 
-## Operadores
+---
+
+## LD08 JD Operadores
 
 Operadores são expressões que utilizamos para executar uma ação em nossos dados.
 
@@ -105,7 +123,7 @@ Essa ação pode ser: atribuir um valor a uma variável; realizar alguma conta m
 * BIT A BIT;
 * String.
 
-#### Atribição
+#### Atribuição
 
 Este operador atribui um valor ao operando à sua esquerda, baseado no valor do operando à direita.
 
@@ -184,6 +202,142 @@ Concatenação         | + ou & ou .     | `"Hcode" + "Treinamentos"` | "HocodeT
 
 **Nota** - O operador depende da linguagem que está sendo utilizada. A maioria das linguagens utilizam o operador +, mas não todas.
 
+---
+
 ## LD09 JD Variável Indexada ou Vetor
 
 É uma estrutura de dados que armazena uma coleção de elementos de tal forma que cada um dos elementos possa ser identificado por, pelo menos um índice.
+
+---
+
+## LD10 JD Vetor de Vetores ou Matriz
+
+É uma estrutura de dados que armazena uma coleção de elementos de tal forma que cada um dos elementos possa ser identificado por um índice e um subindice.
+
+**Nota** - É possível guardar um vetor dentro do índice de um vetor, ou seja, criar um subvetor.
+
+### Matriz Nomeada
+
+Na matriz nomeada, os vetores e subvetores podem receber outros identificadores como índice. 
+
+---
+
+## LD11 JD Hcode Challenge Xadrez
+
+Essa aula tem um tabuleiro de chadrez que permite a movimentação das peças por meio de comandos portugol.
+
+---
+
+## LD12 JD Comando de decisão Se if
+
+"SE" ou "IF" em inglês é uma expressão condicional e está presente em praticamente todas as linguagens de programação.
+
+O comando será executado se a condição que ele espera seja verdadeira.
+
+Caso essa condição não seja atendida, você poderá ignorar, verificar outra condição que seja verdadeira com o comando "SENÃO SE" (ELSE IF) ou executar um comando no caso de uma condição falsa "SENÃO" (ELSE).
+
+---
+
+## LD13 JD Comando de decisão Caso Switch
+
+### Decisão - ESCOLHA CASO - SWITCH CASE
+
+"ESCOLHA CASO" ou em inglês "SWITCH CASE" é uma expressão condicional e está presente em praticamente todas as linguagens de programação.
+
+O comando espera um valor que normalmente vem de uma variável e executa um comando "caso" o valor seja igual a um dos casos que definimos.
+
+Se nenhum caso for executado é possível definir um caso padrão.
+
+---
+
+## JD14 Comando de Repetição Enquanto e Faça enquanto While e Do While
+
+Comandos de repetição possibilitam repetir um ou mais comandos sem a necessidade de escrever os mesmos várias vezes.
+
+O comando ENQUANTO ou "WHILE" repete um comando enquanto ema condição for verdadeira.
+
+Já o comando FAÇA ENQUANTO ou "DO WHILE" executa o comando uma vez sem nenhuma verificação e continua repetindo enquanto a condição for verdadeira.
+
+---
+
+## LD15 JD Comando de Repetição para For
+
+O comando de repetição "PARA" OU "FOR" executa a repetição de comandos com base em um contador.
+
+É composto de 3 partes:
+
+1. Iniciação;
+2. Condição;
+3. Passo.
+
+Normalmente usado quando sabemos quantas vezes serão repetidos os comandos.
+
+---
+
+## LD16 JD Comando de Repetição Para Cada For Each
+
+o COMANDO DE REPETIÇÃO "PARA CADA" ou "FOR EACH" executa a repetição de comandos com base em uma coleção de itens ou um vetor.
+
+---
+
+## LD17 JD Função
+
+É uma subrotina em nosso programa que executa uma tarefa e retorna um resultado para o chamador.
+
+As funções quando nomeadas podem ser usadas várias vezes em lugares diferentes.
+
+---
+
+## LD18 JD Orientação a Objetos
+
+Programação Orientada a Objetos (POO) é um modo de escrevermos nossos programas com base em "objetos" que podem conter variáveis e funções, os quais passam a se chamar atributos (propriedades) e métodos respectivamente.
+
+### Classe
+
+A classe é uma descrição da estrutura de um objeto. É nela que você deverá dizer quais são os atributos e métodos que cada objeto deverá ter e como eles irão funcionar.
+
+Sempre que um novo objeto for gerado (instanciado) ele precisará de uma classe.
+
+#### Carro
+
+* **Atributos (propriedades)**
+  * Cor: Amarelo
+  * Preço: R$ 100.000,00
+  * Fabricante: Peugeot
+  * Modelo: Cupê
+  * Potência: 118cv
+
+* **Métodos**
+  * Acelerar: Quanto acelerar?
+  * Frear: Quanto frear?
+  * Virar: Quanto virar e para qual lado?
+  * abrir
+  * Fechar
+
+#### Encapsulamento
+
+O encapsulamento define as permissões de acesso de nossos atributos e métodos. Isso torna possível ocultar e proteger alterações de fora do objeto.
+
+Os tipos de encapsulamento são:
+
+* Público;
+* Privado;
+* Protegido.
+
+#### Este e Próprio
+
+Para fazer uma modificação nos dados de um objeto já instanciado é preciso usar o comando "ESTE" ou "THIS". Já para mudar os dados de uma classe usamos o comando "PROPRIO" ou "SELF".
+
+#### Herança
+
+Ao criarmos uma classe é possível herdar atributos e métodos de outra classe. Dessa forma conseguimos organizar nosso programa de forma hierárquica.
+
+#### Interface
+
+Quando uma classe é criada com base em uma interface, ela precisa seguir as regras definidas por essa interface, ou seja, as interfaces são padrões ou exigências de como as classes devem ser estruturadas.
+
+Não é possível instanciar um objeto se estiver faltando qualquer elemento definido na interface.
+
+---
+
+## LD19 Resumo da seção
